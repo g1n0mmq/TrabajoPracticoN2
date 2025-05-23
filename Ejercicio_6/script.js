@@ -11,7 +11,7 @@ function validarFormulario() {
   let errores = [];
     if (nombre === "" || !/^[a-zA-Z]+$/.test(nombre)) {
         errores.push("Nombre inválido (vacío o contiene caracteres no válidos)");
-    }
+    } 
   if (nombre === "" || nombre.length > 50) {
     errores.push("Nombre inválido (vacío o muy largo)");
   }
